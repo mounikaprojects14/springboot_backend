@@ -23,7 +23,7 @@ public class DoctorModel {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long DoctorId;
 
-	@Column //@Column(unique = True)
+	@Column //@Column(unique = true)
 	private String FirstName;
 	
 	@Column
